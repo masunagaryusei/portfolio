@@ -1,0 +1,42 @@
+body{
+  background: #2d2d2d;
+  margin: 0;
+  padding: 0;
+}
+.content1{
+
+}
+.b{
+  width: 100%;
+  height: auto;
+}
+.fadein {
+  background: url("../photo/top web-20.png")
+    no-repeat #2d2d2d;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+
+}
+.fadein .scrollin {
+    opacity : 1;
+    transform : translate(0, 0);
+
+}
+.box{
+  width: 900px;
+  height: 500px;
+  margin: 0 auto;
+  padding-top: 320px;
+  text-align:center;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+.back {
+    width: 86px;
+    height: 40px;
+    left: 10%;
+    position: absolute;
+    top: 80%;
+}

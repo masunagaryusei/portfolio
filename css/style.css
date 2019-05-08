@@ -1,0 +1,183 @@
+body{
+  /* background-image: url("../photo/21-21.png"), url("../photo/21-22.png");
+          background-position: left top, right bottom;
+          background-repeat: no-repeat, no-repeat;
+          background-size: 100px 50px, 20%; */
+
+background: url("../photo/rayout-02-01.png")
+  no-repeat #2d2d2d;
+  background-size: cover;
+}
+.bx-wrapper {
+    -moz-box-shadow: none;
+    -webkit-box-shadow:  none;
+    box-shadow:  none;
+    border: none;
+    background: none;
+}
+.bx-wrapper .bx-pager.bx-default-pager a {
+    background: none;
+    text-indent: none;
+    display: none;
+    width: none;
+    height: none;
+    margin: none;
+    outline:none;
+}
+
+.wrapper{
+  width: 1040px;
+  height:3050px;
+margin: 0 auto;
+}
+.top{
+  width: 1200px;
+  height: 740px;
+   /* border: 1px solid red; */
+}
+.title{
+  width: 500px;
+  height: 200px;
+}
+.me{
+  width: 13%;
+  height: auto;
+  padding-left: 485px;
+  padding-top: 56px;
+}
+.T{
+  width:88%;
+  height: auto;
+  padding-left: 297px;
+  padding-top: 260px;
+}
+.tw{
+  width: 23%;
+  height: auto;
+padding-left: 482px;
+padding-top: 0px;
+}
+.FW{
+  width: 660px;
+  height: 58px;
+  padding-left: 183px;
+}
+.FWE{
+  width: 650px;
+  height: auto;
+}
+.blink1{animation:BLINK 0.9s ease-in-out infinite alternate;}
+@keyframes BLINK {0%{opacity:1.0;}100% {opacity:0;}}
+
+
+
+.about{
+  width: 998px;
+  height: 745px;
+  margin: 0 auto;
+  padding-top: 40px;
+  margin-right: 21px;
+   /* border: 1px solid red; */ */
+}
+.ab{
+  width: 10%;
+  height: auto;
+  padding-left: 449px;
+  padding-top: 30px;
+}
+.na{
+width: 997px;
+height: auto;
+padding-top: 26px;
+}
+.work{
+  width: 997px;
+  height: 744px;
+  margin: 0 auto;
+  margin-right: 21.5px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  /* border: 1px solid red; */
+}
+.wo{
+  width: 10%;
+  height: auto;
+  padding-left: 448px;
+  padding-top: 34px;
+}
+/* .il{
+  width: 950px;
+  height: auto;
+  padding-top: 5px;
+  padding-left: 19px;
+} */
+.sr{
+  width: 1000px;
+  height: 500px;
+  margin-top:83px;
+  /* border: 1px solid red; */
+}
+
+.A{
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+}
+.B{
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+}
+.C{
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.contact{
+  width: 997px;
+  height: 744px;
+  margin: 0 auto;
+  margin-right: 22px;
+ position:relative;
+   /* border: 1px solid red; */
+
+}
+.co{
+  width: 13%;
+  height: auto;
+  padding-left: 434px;
+  padding-top: 34px;
+}
+.contaa{
+  width:997px;
+  height: auto;
+margin-top: 50px;
+/* border: 1px solid red; */
+position: relative;
+}
+.cont1{
+  width:998px;
+  height: auto;
+}
+.mail{
+  width: 500px;
+  height: 260px;
+  /* border: 1px solid red; */
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom:200px;
+  left:280px;
+}
+.ma{
+  width: 80%;
+  height: auto;
+}
+
+@@media screen and ( max-width:479px ){
+   
+}
